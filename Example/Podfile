@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DHSplitCells_Example' do
+  pod 'DHSplitCells', :path => '../'
+
+  target 'DHSplitCells_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
