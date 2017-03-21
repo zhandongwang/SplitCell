@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DHSplitCells'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'DHSplitCells is cell split module of CloudCash App.'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = 'DHSplitCells/Classes/**/*'
   s.requires_arc = true
   s.prefix_header_contents = '#import <CCDCore/CCDCore.h>'
-  
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
