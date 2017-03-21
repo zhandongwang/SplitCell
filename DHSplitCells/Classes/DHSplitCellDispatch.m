@@ -41,7 +41,9 @@
     for (NSString *cellName in self.cellNamesArray) {
         NSBundle *bundle;
         if (self.bundleName.length > 0) {
-            bundle = [[CCDBundleHelper sharedInstance] podBundle:self.bundleName];
+            NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+            NSURL *url = [bundle URLForResource:self.bundleName withExtension:@"bundle"];
+            bundle = [NSBundle bundleWithURL:url];
         } else {
             bundle = [NSBundle mainBundle];
         }
