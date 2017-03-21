@@ -1,0 +1,6 @@
+framework module Pods_DHSplitCells_Example {
+  umbrella header "Pods-DHSplitCells_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

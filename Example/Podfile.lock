@@ -1,0 +1,16 @@
+PODS:
+  - DHSplitCells (0.1.0)
+
+DEPENDENCIES:
+  - DHSplitCells (from `../`)
+
+EXTERNAL SOURCES:
+  DHSplitCells:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DHSplitCells: 81bf85c75fc06a8216a4ef0dee8531af5237b106
+
+PODFILE CHECKSUM: c13053b4c575afd80ff8b4695d0e7b0abfc3a4e6
+
+COCOAPODS: 1.2.0
