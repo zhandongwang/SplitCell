@@ -3,8 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@class DHSplitCellBaseModel;
+#import "DHSplitCellBaseModel.h"
 
 @protocol DHSplitCellProtocol <NSObject>
 

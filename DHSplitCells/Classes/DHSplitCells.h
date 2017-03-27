@@ -10,7 +10,7 @@
 #define DHSplitCells_h
 
 #import "DHSplitCellProtocol.h"
-#import "DHSplitCellBaseModel.h"
 #import "DHSplitCellDispatch.h"
+#import "DHSplitCellBaseModel.h"
 
 #endif /* DHSplitCells_h */
